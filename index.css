@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto; 
+}
+
+header{
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 50px;
+}
+header > button{
+    background-color: white;
+    color: gray;
+    border: none;
+    text-decoration: underline;
+    
+}
+
+/* Faixa 1 */
+.faixa-1{
+    display: flex;
+    background-color: #eb0033;
+}
+.conteudo1{
+    color: white;
+    font-family: sans-serif;
+
+}
